@@ -4,14 +4,24 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Orders: undefined;
+  Menu: undefined;
+  Insights: undefined;
+  Store: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type OrdersParamList = {
+  OrdersScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type MenuParamList = {
+  MenuScreen: undefined;
+};
+
+export type InsightsParamList = {
+  InsightsScreen: undefined;
+};
+
+export type StoreParamList = {
+  StoreScreen: undefined;
 };
